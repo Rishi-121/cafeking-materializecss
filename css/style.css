@@ -1,0 +1,54 @@
+body{
+    font-family: "Montserrat";
+}
+
+.nav-wrapper{
+    background-color: #6f4037;
+}
+
+
+.brand-logo{
+    margin-left: 20px;
+    font-family: "pacifico";
+}
+
+.slider .indicators .indicator-item.active{
+    background-color: #6f4037;
+} 
+
+.content{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.parallax-container{
+    min-height: 280px;
+    height: auto;
+}
+
+.icon-coffee{
+    color: #6f4037 ;
+}
+
+.footer-one{
+    background: #6f4037;
+}
+
+.footer-two{
+    background: #462822;
+}
+
+@media (max-width:767px){
+    .brand-logo{
+        margin-left: 0;
+    }
+
+    .descrip .heading{
+        font-size: 2.8rem;
+    }
+
+    .slider-header{
+        font-size: 2.5rem;
+    }
+}
